@@ -18,7 +18,7 @@ public class EmailService {
         SimpleMailMessage mensagem = new SimpleMailMessage();
         mensagem.setFrom("enviaremail698@gmail.com");
         mensagem.setTo("caio.viana.39@gmail.com");
-        mensagem.setSubject("Novo contato de " + formulario.getNome());
+        mensagem.setSubject("Novo contato do PORTIFOLIO de: " + formulario.getNome());
         mensagem.setText("Nome: " + formulario.getNome() + "\n" +
                 "Email: " + formulario.getEmail() + "\n\n" +
                 "Mensagem: " + formulario.getMensagem());
