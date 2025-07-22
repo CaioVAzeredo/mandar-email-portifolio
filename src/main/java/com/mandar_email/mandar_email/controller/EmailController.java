@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.*;
 @RestController
 @RequestMapping("/contato")
 @CrossOrigin(origins = "*")
-public class emailController {
+public class EmailController {
     @Autowired
     private EmailService emailService;
 

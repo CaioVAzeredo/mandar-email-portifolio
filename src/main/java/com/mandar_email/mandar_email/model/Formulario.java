@@ -5,10 +5,10 @@ import jakarta.validation.constraints.NotBlank;
 
 public class Formulario {
 
-    @Email(message = "Deve ser um endereço de email válido")
+    @NotBlank(message = "Nome é obrigatorio")
     private String nome;
 
-    @NotBlank(message = "Deve conter um destinatario")
+    @NotBlank(message = "E-mail é obrigatório")
     @Email(message = "Deve ser um endereço de email válido")
     private String email;
 
